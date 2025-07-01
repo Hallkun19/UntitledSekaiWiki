@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#chart-editors" class="md-skip">
           Skip to content
         </a>
       
@@ -485,11 +485,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    譜面エディター
+  <a href="#chart-editors" class="md-nav__link">
+    Chart Editors
   </a>
   
-    <nav class="md-nav" aria-label="譜面エディター">
+    <nav class="md-nav" aria-label="Chart Editors">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -547,8 +547,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    その他ツール
+  <a href="#other-tools" class="md-nav__link">
+    Other Tools
   </a>
   
 </li>
@@ -594,11 +594,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    譜面エディター
+  <a href="#chart-editors" class="md-nav__link">
+    Chart Editors
   </a>
   
-    <nav class="md-nav" aria-label="譜面エディター">
+    <nav class="md-nav" aria-label="Chart Editors">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -656,8 +656,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    その他ツール
+  <a href="#other-tools" class="md-nav__link">
+    Other Tools
   </a>
   
 </li>
@@ -679,75 +679,77 @@
 
   <h1>Tools</h1>
 
-<h2 id="_1">譜面エディター</h2>
-<p>創作譜面を作成する上で重要な、各種エディターとその主な機能を紹介します。</p>
+<h2 id="chart-editors">Chart Editors</h2>
+<p>Here are some important editors and their main features for creating custom rhythm game charts.</p>
 <details class="note">
 <summary>MikuMikuWorld</summary>
 <h3 id="mikumikuworld">MikuMikuWorld</h3>
-<p>crash5band氏が開発した創作譜面エディターです。略称は「純正ミクワ」または「純正MMW」です。</p>
-<p><a href="https://github.com/crash5band/MikuMikuWorld/releases">ダウンロードはこちら</a></p>
+<p>A chart editor developed by crash5band. Also known as "Official MikuMikuWorld" or "Official MMW".</p>
+<p><a href="https://github.com/crash5band/MikuMikuWorld/releases">Download here</a></p>
 </details>
 <details class="note">
 <summary>MikuMikuWorld for Chart Cyanvas</summary>
 <h3 id="mikumikuworld-for-chart-cyanvas">MikuMikuWorld for Chart Cyanvas</h3>
-<p>名無し。氏が改良したMikuMikuWorldです。略称は「MMW4CC」です。現在「ミクワ」と呼ばれる場合は、主にこちらを指すことが多いです。「改造ミクワ」と呼ばれ ることもあります。特にこだわりがなければ、こちらの利用を推奨します。</p>
-<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">ダウンロードはこちら</a></p>
+<p>An improved version of MikuMikuWorld by Nanashi. Commonly referred to as "MMW4CC" or simply "MikuMikuWorld" nowadays. Also called "Modded MikuMikuWorld". Recommended for most users unless you have a specific preference.</p>
+<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">Download here</a></p>
 <details class="tip">
-<summary>主な機能</summary>
+<summary>Main Features</summary>
 <ul>
 <li>
-<p>ハイスピード補完機能</p>
+<p>High-Speed Interpolation</p>
 <ul>
-<li>選択範囲内のハイスピードの最初と最後の間を、任意の間隔で一定の上昇・下降幅で自動補完します。</li>
-<li>例：ハイスピードを選択し、右クリックメニュー下部の「ハイスピードを補完」をクリックで完了します。</li>
+<li>Automatically interpolates the high-speed between the first and last points in the selected range at a specified interval and increment/decrement.</li>
+<li>Example: Select the high-speed section, then right-click and choose "Interpolate High-Speed" at the bottom of the menu.</li>
 </ul>
 </li>
 <li>
-<p>最初・最後に合わせて縮める機能</p>
+<p>Compress to First/Last Note</p>
 <ul>
-<li>選択したノーツの前後の位置関係を保ったまま、間隔を極限まで縮めます。</li>
-<li>例：「最初に合わせる」場合はノーツを選択し、右クリックメニュー中央下の「縮める（最初に合わせる）」をクリックします。</li>
-<li>ノーツ以外にも、スライド・ガイドの始点・終点・中継点、ハイスピードも縮めることが可能です。</li>
+<li>Compresses the spacing between selected notes as much as possible while maintaining their relative positions.</li>
+<li>Example: To compress to the first note, select the notes, then right-click and choose "Compress (to First Note)" in the lower middle of the menu.</li>
+<li>This also works for slides, guides (start/end/mid points), and high-speed sections.</li>
 </ul>
 </li>
 <li>
-<p>プリセット機能
-     -ノーツを選択し、右下の「プリセットに登録」を押すことで、選択したノーツを保存できます。</p>
-</li>
-<li>
-<p>波形表示機能</p>
+<p>Preset Feature</p>
 <ul>
-<li>音の波形をレーン中央に表示できます。</li>
+<li>Select notes and click "Add to Preset" at the bottom right to save the selection as a preset.</li>
 </ul>
 </li>
 <li>
-<p>しおり機能</p>
+<p>Waveform Display</p>
 <ul>
-<li>選択ツールでレーンをクリックし、右下から「しおりを作成」をクリックすると、赤い線の位置にウェイポイントを設定できます。</li>
-<li>レーン上の白いマーカーをクリックすると名前の変更も可能です。左下の赤矢印のボックスに値を入力すると、指定した小節にジャンプできます。</li>
+<li>Displays the audio waveform in the center of the lane.</li>
 </ul>
 </li>
 <li>
-<p>絶対・相対・個別絶対スナップ機能</p>
+<p>Bookmark Feature</p>
 <ul>
-<li>ノーツをホールドして動かす際の挙動を変更できます。</li>
-<li>絶対スナップ：ノーツの位置を拍線に合わせます。</li>
-<li>相対スナップ：拍線からの距離を維持したまま、指定した分割数で動かします。</li>
-<li>個別絶対スナップ：複数ノーツの位置を拍線に合わせます。</li>
+<li>Click the lane with the selection tool, then click "Add Bookmark" at the bottom right to set a waypoint at the red line.</li>
+<li>You can rename white markers on the lane, and jump to a specific measure by entering a value in the red arrow box at the bottom left.</li>
 </ul>
 </li>
 <li>
-<p>楽曲再生速度の変更</p>
+<p>Absolute/Relative/Individual Absolute Snap</p>
 <ul>
-<li>楽曲再生速度を25%、50%、75%、100%の4段階で変更できます。</li>
+<li>Changes how notes move when dragged.</li>
+<li>Absolute Snap: Aligns notes to the beat grid.</li>
+<li>Relative Snap: Moves notes by a specified division while maintaining their offset from the grid.</li>
+<li>Individual Absolute Snap: Aligns multiple notes to the grid.</li>
 </ul>
 </li>
 <li>
-<p>トレース変換</p>
+<p>Change Playback Speed</p>
 <ul>
-<li>任意の間隔でスライド・ガイドに沿ってトレースを配置できます。</li>
-<li>「トレースを追加」：スライドやガイドを選択し、右クリックメニュー下部の「トレースを追加」をクリック。</li>
-<li>「トレースに変換」：スライドやガイドを選択し、右クリックメニュー下部の「トレースに変換」をクリック。</li>
+<li>Allows you to change the playback speed to 25%, 50%, 75%, or 100%.</li>
+</ul>
+</li>
+<li>
+<p>Trace Conversion</p>
+<ul>
+<li>Places traces along slides/guides at specified intervals.</li>
+<li>"Add Trace": Select a slide or guide, then right-click and choose "Add Trace" at the bottom of the menu.</li>
+<li>"Convert to Trace": Select a slide or guide, then right-click and choose "Convert to Trace" at the bottom of the menu.</li>
 </ul>
 </li>
 </ul>
@@ -756,72 +758,72 @@
 <details class="note">
 <summary>MikuMikuWorld for Untitled Sekai</summary>
 <h3 id="mikumikuworld-for-untitled-sekai">MikuMikuWorld for Untitled Sekai</h3>
-<p>ぴぃまん氏が改良したMikuMikuWorldです。略称は「MMW4US（ミクミクワールドフォーユーエス）」です。</p>
-<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">ダウンロードはこちら</a>（※現時点ではリンクがありません）</p>
+<p>A version of MikuMikuWorld improved by Piiman. Also known as "MMW4US" (MikuMikuWorld for Untitled Sekai).</p>
+<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">Download here</a> (No dedicated link as of now)</p>
 <details class="tip">
-<summary>主な機能</summary>
+<summary>Main Features</summary>
 <ul>
-<li>MikuMikuWorld for Chart Cyanvasの全機能を搭載</li>
-<li>ダミーノーツの設置（Untitled Sekai限定の要素。判定のないノーツを配置可能）</li>
+<li>Includes all features of MikuMikuWorld for Chart Cyanvas</li>
+<li>Dummy notes (Untitled Sekai exclusive: place notes with no judgment)</li>
 </ul>
 </details>
 </details>
 <details class="note">
 <summary>JavaScriptMikuMikuWorld+</summary>
 <h3 id="javascriptmikumikuworld">JavaScriptMikuMikuWorld+</h3>
-<p>JavaScriptで開発中のWeb版MikuMikuWorldです（予定）。</p>
-<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">ダウンロードはこちら</a>（※現時点ではリンクがありません）</p>
+<p>A web-based version of MikuMikuWorld under development in JavaScript (planned).</p>
+<p><a href="https://github.com/sevenc-nanashi/MikuMikuWorld4CC/releases">Download here</a> (No dedicated link as of now)</p>
 </details>
 <details class="note">
 <summary>Ched</summary>
 <h3 id="ched">Ched</h3>
-<p>paralleltree氏が開発した某スライダーヘドバン音ゲー用の創作譜面エディターです。軽量ですが機能は多くありません。「純正Ched」と呼ばれます。</p>
-<p><a href="https://github.com/paralleltree/Ched/releases">ダウンロードはこちら</a></p>
+<p>A lightweight chart editor for a certain slider-headbang rhythm game, developed by paralleltree. Also called "Official Ched". Has limited features but is easy to use.</p>
+<p><a href="https://github.com/paralleltree/Ched/releases">Download here</a></p>
 <details class="tip">
-<summary>主な機能</summary>
+<summary>Main Features</summary>
 <ul>
-<li>矢印なしトレースフリック（トレースに下向きAirを付けることで実現）</li>
+<li>Flick traces without arrows (achieved by adding downward Air to traces)</li>
 </ul>
 </details>
 </details>
 <details class="note">
 <summary>Ched SKEdition</summary>
 <h3 id="ched-skedition">Ched SKEdition</h3>
-<p>純正Chedにゆっくりスカイさんが様々な機能を追加した改造版Chedです。略称は「改造Ched」。</p>
-<p><a href="https://github.com/myuuskye/Ched/releases">ダウンロードはこちら</a></p>
+<p>A modded version of Official Ched with many added features by Yukkuri Sky. Also known as "Modded Ched".</p>
+<p><a href="https://github.com/myuuskye/Ched/releases">Download here</a></p>
 <details class="tip">
-<summary>主な機能</summary>
+<summary>Main Features</summary>
 <ul>
-<li>矢印なしトレースフリック</li>
-<li>ステップ別チャンネル許可（スライド・ガイドの各点をチャンネルごとに分離可能）</li>
-<li>プラグイン対応（自作プラグインの追加も可能）</li>
-<li>コンボ計算（譜面全体のノーツ数を計算）</li>
-<li>イベント移動（BPMや拍子などを任意の小節・拍数分移動）</li>
-<li>スライド・ガイド編み込み（中継点の繰り返し配置）</li>
-<li>スライド&lt;-&gt;ガイド変換（相互変換）</li>
-<li>スライド・ガイド結合／分割</li>
-<li>スライド・ガイド時間軸反転</li>
-<li>譜面プレビュー機能</li>
-<li>重なりの可視化（ノーツの重なりを色で強調表示）</li>
-<li>拡大・縮小と移動幅の調整</li>
-<li>コメント機能（エディター内のみ閲覧可能）</li>
-<li>USCエクスポート設定と重なり判定精度向上</li>
-<li>AIR（ノーツに直接Airを付与可能）</li>
-<li>AIR-ACTIONの追加要素（ガイド終点にAIR-ACTIONを付与し透明度調整など）</li>
-<li>ノーツ幅履歴機能</li>
-<li>ノーツ幅変化量の調整</li>
-<li>特殊ショートカット（幅変化無効化や小数点単位の移動など）</li>
+<li>Flick traces without arrows</li>
+<li>Step-specific channel assignment (separate channels for each point in slides/guides)</li>
+<li>Plugin support (add your own plugins)</li>
+<li>Combo counter (counts total notes in the chart)</li>
+<li>Event shifting (move BPM, time signature, etc. by any measure/beat)</li>
+<li>Slide/Guide weaving (repeat midpoints)</li>
+<li>Slide &lt;-&gt; Guide conversion</li>
+<li>Slide/Guide merge and split</li>
+<li>Slide/Guide time axis inversion</li>
+<li>Chart preview</li>
+<li>Overlap visualization (highlight overlapping notes)</li>
+<li>Zoom and move adjustment</li>
+<li>Comment feature (viewable only in the editor)</li>
+<li>USC export settings and improved overlap detection</li>
+<li>AIR (add Air directly to notes)</li>
+<li>AIR-ACTION enhancements (add AIR-ACTION to guide endpoints, adjust transparency, etc.)</li>
+<li>Note width history</li>
+<li>Note width change adjustment</li>
+<li>Special shortcuts (disable width change, move by decimal units, etc.)</li>
 </ul>
 </details>
 </details>
 <details class="note">
 <summary>Palette Works Editor</summary>
 <h3 id="palette-works-editor">Palette Works Editor</h3>
-<p>ブラウザ上で譜面を作成できるサイトです。</p>
-<p><a href="https://paletteworks-editor.vercel.app/edit">サイトリンクはこちら</a></p>
+<p>A browser-based site for creating rhythm game charts.</p>
+<p><a href="https://paletteworks-editor.vercel.app/edit">Visit the site here</a></p>
 </details>
-<h2 id="_2">その他ツール</h2>
-<p>創作譜面制作に役立つ便利なツールも紹介しています。</p>
+<h2 id="other-tools">Other Tools</h2>
+<p>Here are some other useful tools for rhythm game chart creation.</p>
 
 
 
